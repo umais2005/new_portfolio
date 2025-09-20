@@ -35,19 +35,25 @@ const skillsSection = {
   title: "What I do",
   subTitle: "AI Engineer passionate about ML, NLP, and deploying AI systems",
   skills: [
-    emoji("⚡ Build and deploy AI & NLP applications using Python, LangChain, and Hugging Face"),
-    emoji("⚡ Develop APIs with FastAPI and deploy scalable AI applications on cloud platforms"),
-    emoji("⚡ Creating data pipelines for AI workflows, data preprocessing, web scraping for data acquisition")
+    emoji(
+      "⚡ Build and deploy AI & NLP applications using Python, LangChain, and Hugging Face"
+    ),
+    emoji(
+      "⚡ Develop APIs with FastAPI and deploy scalable AI applications on cloud platforms"
+    ),
+    emoji(
+      "⚡ Creating data pipelines for AI workflows, data preprocessing, web scraping for data acquisition"
+    )
   ],
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "AI/ML/LLMs", fontAwesomeClassname: "fas fa-hexagon-nodes" },
-    { skillName: "LangChain", fontAwesomeClassname: "fas fa-link" },
-    { skillName: "OpenAI", fontAwesomeClassname: "fab fa-openai" },
-    { skillName: "Automation", fontAwesomeClassname: "fas fa-robot" },
-    { skillName: "FastAPI", fontAwesomeClassname: "fas fa-server" },
-    { skillName: "Postgres", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "AI/ML/LLMs", fontAwesomeClassname: "fas fa-hexagon-nodes"},
+    {skillName: "LangChain", fontAwesomeClassname: "fas fa-link"},
+    {skillName: "OpenAI", fontAwesomeClassname: "fab fa-openai"},
+    {skillName: "Automation", fontAwesomeClassname: "fas fa-robot"},
+    {skillName: "FastAPI", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "Postgres", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"}
   ],
   display: true
 };
@@ -60,7 +66,7 @@ const educationInfo = {
       logo: require("./assets/images/iba.png"),
       subHeader: "Bachelor's in Computer Science",
       duration: "Aug 2025 - Present",
-      desc: "Pursuing Bachelor's in Computer Science with a focus on AI and ML.",
+      desc: "Pursuing Bachelor's in Computer Science with a focus on AI and ML."
     }
   ]
 };
@@ -68,10 +74,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "LLMs and AI Agents", progressPercentage: "90%" },
-    { Stack: "Backend Development (FastAPI, APIs)", progressPercentage: "85%" },
-    { Stack: "Data processing, Scraping", progressPercentage: "85%" },
-    { Stack: "Machine Learning / NLP", progressPercentage: "80%" },
+    {Stack: "LLMs and AI Agents", progressPercentage: "90%"},
+    {Stack: "Backend Development (FastAPI, APIs)", progressPercentage: "85%"},
+    {Stack: "Data processing, Scraping", progressPercentage: "85%"},
+    {Stack: "Machine Learning / NLP", progressPercentage: "80%"}
   ],
   displayCodersrank: false
 };
@@ -108,13 +114,15 @@ const bigProjects = {
     {
       // image: require("./assets/images/project.png"),
       projectName: "AI Chatbot for Climate Research",
-      projectDesc: "Built with LangChain, GPT-4, and Whisper. Integrated 20+ books & 100+ podcasts into a Pinecone vector DB for RAG responses. Deployed on Streamlit Cloud.",
+      projectDesc:
+        "Built with LangChain, GPT-4, and Whisper. Integrated 20+ books & 100+ podcasts into a Pinecone vector DB for RAG responses. Deployed on Streamlit Cloud.",
       footerLink: []
     },
     {
       // image: require("./assets/images/project.png"),
       projectName: "Recommender Chatbot",
-      projectDesc: "Developed a LangChain + Llama 3 chatbot to provide recommendations from a database of 15,000+ app descriptions using RAG.",
+      projectDesc:
+        "Developed a LangChain + Llama 3 chatbot to provide recommendations from a database of 15,000+ app descriptions using RAG.",
       footerLink: []
     },
     {
@@ -137,16 +145,23 @@ const achievementSection = {
       image: require("./assets/images/udemy.png"),
       imageAlt: "Udemy Logo",
       footerLink: [
-        { name: "Certification", url: "https://www.udemy.com/certificate/UC-98c7bf84-957c-49e0-8b4c-3b73ec76f650/" }
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-98c7bf84-957c-49e0-8b4c-3b73ec76f650/"
+        }
       ]
     },
     {
       title: "Google Data Analytics (Coursera)",
-      subtitle: "Learned data cleaning, analysis, and visualization with SQL, R, and Tableau.",
+      subtitle:
+        "Learned data cleaning, analysis, and visualization with SQL, R, and Tableau.",
       image: require("./assets/images/google.png"),
       imageAlt: "Google Logo",
       footerLink: [
-      { name: "Certification", url: "https://www.coursera.org/account/accomplishments/professional-cert/WZCG83YW1KPM" }
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/WZCG83YW1KPM"
+        }
       ]
     }
   ],
@@ -161,8 +176,8 @@ const blogSection = {
   display: false
 };
 
-const talkSection = { title: "", subtitle: "", talks: [], display: false };
-const podcastSection = { title: "", subtitle: "", podcast: [], display: false };
+const talkSection = {title: "", subtitle: "", talks: [], display: false};
+const podcastSection = {title: "", subtitle: "", podcast: [], display: false};
 
 const resumeSection = {
   title: "Resume",
@@ -177,7 +192,7 @@ const contactInfo = {
   email_address: "umaismuhammad99@gmail.com"
 };
 
-const twitterDetails = { userName: "", display: false };
+const twitterDetails = {userName: "", display: false};
 const isHireable = true;
 
 export {
