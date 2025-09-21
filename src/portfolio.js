@@ -86,6 +86,13 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "AI Engineer",
+      company: "Freelance",
+      companylogo: require("./assets/images/freelancer-icon.png"),
+      date: "Dec 2024 – Present",
+      desc: "Building AI-powered applications and chatbots for clients using Python, LLMs and NLP models, and many other frameworks. Implementing AI workflows with RAG to automate business processes."
+    },
+    {
       role: "AI Engineer Intern",
       company: "Ariel Teknology",
       companylogo: require("./assets/images/aerialtek.png"),
