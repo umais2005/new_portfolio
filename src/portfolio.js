@@ -93,7 +93,7 @@ const workExperiences = {
       desc: "Building AI-powered applications and chatbots for clients using Python, LLMs and NLP models, and many other frameworks. Implementing AI workflows with RAG to automate business processes."
     },
     {
-      role: "AI Engineer Intern",
+      role: "Junior AI Engineer",
       company: "Ariel Teknology",
       companylogo: require("./assets/images/aerialtek.png"),
       date: "Aug 2024 – Dec 2024",
