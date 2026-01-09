@@ -74,10 +74,10 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    {Stack: "LLMs and AI Agents", progressPercentage: "90%"},
-    {Stack: "Backend Development (FastAPI, APIs)", progressPercentage: "85%"},
-    {Stack: "Data processing, Scraping", progressPercentage: "85%"},
-    {Stack: "Machine Learning / NLP", progressPercentage: "80%"}
+    {Stack: "LLMs and AI Agents", progressPercentage: "100%"},
+    {Stack: "Backend Development (FastAPI, APIs)", progressPercentage: "100%"},
+    {Stack: "Data processing, Scraping", progressPercentage: "90%"},
+    {Stack: "Machine Learning / NLP", progressPercentage: "90%"}
   ],
   displayCodersrank: false
 };
@@ -116,30 +116,25 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some AI projects I have worked on",
+  subtitle: "Scalable AI solutions and automation pipelines",
   projects: [
     {
-      // image: require("./assets/images/project.png"),
-      projectName: "AI Chatbot for Climate Research",
-      projectDesc:
-        "Built with LangChain, GPT-4, and Whisper. Integrated 20+ books & 100+ podcasts into a Pinecone vector DB for RAG responses. Deployed on Streamlit Cloud.",
+      projectName: "Omnichannel Customer Support AI", 
+      projectDesc: "Unified platform integrating Chatwoot and OpenWebUI with email-based memory persistence and intelligent human escalation.",
       footerLink: []
     },
     {
-      // image: require("./assets/images/project.png"),
-      projectName: "Recommender Chatbot",
-      projectDesc:
-        "Developed a LangChain + Llama 3 chatbot to provide recommendations from a database of 15,000+ app descriptions using RAG.",
+      projectName: "Stock Analysis Report Generator",
+      projectDesc: "Automated system generating investment reports for 50+ stocks using real-time market data and OpenAI-driven insights.",
       footerLink: []
     },
     {
-      // image: require("./assets/images/project.png"),
-      projectName: "Mobile Price Range Classifier",
-      projectDesc: "Achieved 95% accuracy using SVC with feature engineering.",
+      projectName: "Job Listing Automation",
+      projectDesc: "End-to-end pipeline processing 500+ job listings monthly, utilizing GroqAPI and web scraping for WordPress integration.",
       footerLink: []
     }
   ],
-  display: false
+  display: true
 };
 
 const achievementSection = {
